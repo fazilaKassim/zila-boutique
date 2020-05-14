@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    margin: 100px;
+    text-align: center;
+    color: rgb(200, 156, 98);
+    font-size: 50px;
+}
+
+/* section filtre */
+/* #filtre .fas{
+    color: rgb(200, 156, 98);
+    background-color: white;
+    width: 100px;
+    height: auto;
+} */
+#filtre {
+    display: block;
+    position: absolute;
+}
+
+button.trier {
+    width: 100px;
+    height: 50px;
+    margin: 0 0 50px 100px;
+    background: goldenrod;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    bottom: 70px;
+
+}
+
+ul.trie {
+    width: 100%;
+
+    position: absolute;
+    top: 2px;
+
+    left: 100px;
+    
+    text-align: center;
+    line-height: 40px;
+    z-index: 4;
+    /* transform-origin: top;
+    transition: 0.5s;
+    transform: perspective(1000px) rotateX(-90deg); */
+
+    
+}
+/* 
+ul.active{
+
+} */
+ul.trie li {
+    background: goldenrod;
+    list-style: none;
+}
+
+.trie li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 40);
+    transition: 0.5s;
+
+
+}
+
+/* .trie li a:hover {} */
+
+/* section product */
+ul#henneconne {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+}
+
+li.wrapper img {
+
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+li.wrapper {
+    margin: 20px;
+    background: white;
+    color: goldenrod;
+    border-radius: 10px;
+}
+
+span.prix {
+    float: right;
+}
+
+h3.nom {
+    padding: 10px;
+}
+
+button.add-to-cart {
+    width: 200px;
+    height: 50px;
+    background: goldenrod;
+    color: white;
+    border: 2px solid goldenrod;
+    font-size: 18px;
+    margin: 30px 0 30px 100px;
+
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Bellota', cursive;
+}
+
+
+/* .add-cart{ position: absolute;
+width: 100%;
+background-color:rgb(214, 123, 138);
+transition: all 0.3s ease-in-out;
+opacity: 0;
+cursor: pointer;
+text-align: center;}
+
+li.wrapper:hover .cart1
+.wrapper:hover .cart2,
+.wrapper:hover .cart3,
+.wrapper:hover .cart4,
+.wrapper:hover .cart5{
+    {
+    bottom: 50px;
+opacity: 1;
+padding: 10px;
+text-decoration: none;
+cursor: pointer;
+} */
